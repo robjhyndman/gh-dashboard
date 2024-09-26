@@ -2,7 +2,7 @@
 page-title: "Repository Dashboard"
 format: dashboard
 theme: darkly
-execute: 
+execute:
   echo: false
 ---
 
@@ -103,7 +103,7 @@ reactable(
             }
         )
     ),
-    defaultPageSize = nrow(repos),
+    defaultPageSize = 8,
     theme = reactableTheme(backgroundColor = "#2D2D2D")
 )
 ```
@@ -113,14 +113,31 @@ reactable(
 ```{r}
 #| title: CRAN Checks
 cran <- read.csv("cran_status.csv", row.names = NULL)
+problems <- cran[,"Package", drop=FALSE]
+problems$notes <- rowSums(cran == "NOTE")
+problems$warnings <- rowSums(cran == "WARN")
+problems$errors <- rowSums(cran == "ERROR")
+cran$Score <- 10*problems$errors + 5*problems$warnings + problems$notes
+cran <- cran |>
+    dplyr::arrange(desc(Score)) |>
+    dplyr::select(Package, Score, everything())
+
 reactable(cran,
     columns = list(
         Package = colDef(
             style = function(value) {
                 list(background = "#2D2D2D", color = "white")
+            },
+            html = TRUE,
+            cell = function(value) {
+                sprintf('<a href="https://cran.r-project.org/web/checks/check_results_%s.html" target="_blank">%s</a>', value, value)
             }
-        )
-    ),
+        ),
+        Score = colDef(
+            style = function(value) {
+                list(background = "#2D2D2D", color = "yellow")
+            }
+        )),
     defaultColDef = colDef(
         style = function(value) {
             color <- if (value == "ERROR") {
@@ -132,11 +149,12 @@ reactable(cran,
             } else if (value == "OK") {
                 "#00cc00"
             } else {
-                color <- "#2D2D2D"
+                color <- "#aaaaaa"
             }
             list(background = color, color = "black")
         }
     ),
+    defaultPageSize = 8,
     theme = reactableTheme(backgroundColor = "#2D2D2D")
 )
 ```
