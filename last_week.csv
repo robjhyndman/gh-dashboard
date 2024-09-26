@@ -1,37 +1,44 @@
 "owner","repo","last_push","stars","forks","open_issues","last_issue_activity"
-"schochastics","graphlayouts","2024-07-02 17:33:19",274,16,4,"2024-06-23 10:09:17"
-"schochastics","netrankr","2024-09-09 20:01:11",49,4,0,NA
-"schochastics","snahelper","2024-09-03 04:24:37",89,5,0,NA
-"schochastics","signnet","2024-01-06 10:41:41",22,6,0,NA
-"schochastics","edgebundle","2024-02-28 10:18:43",124,10,2,"2024-06-07 13:16:53"
-"schochastics","networkdata","2024-03-23 20:11:30",142,15,0,NA
-"schochastics","roughnet","2023-09-01 17:48:28",83,4,1,"2020-10-01 11:51:26"
-"schochastics","roughsf","2023-10-13 18:23:08",71,3,1,"2022-01-27 20:57:41"
-"schochastics","netUtils","2023-09-01 17:53:49",15,2,0,NA
-"schochastics","rokemon","2022-01-11 14:26:07",94,7,0,NA
-"schochastics","levelnet","2023-01-25 07:52:32",9,0,0,NA
-"schochastics","PSAWR","2023-09-01 17:49:32",10,0,2,"2023-01-20 06:51:43"
-"schochastics","Rtumblr","2023-09-01 17:50:53",1,0,1,"2023-01-12 08:51:04"
-"gesistsa","webtrackR","2024-09-03 19:13:49",9,2,4,"2024-05-03 05:05:12"
-"gesistsa","webbotparseR","2024-03-24 19:34:09",8,1,3,"2024-03-24 19:43:49"
-"schochastics","stabilityAI","2024-01-19 20:04:38",13,1,1,"2024-06-08 17:31:02"
-"schochastics","domainator","2024-09-10 13:34:50",0,1,4,"2023-09-13 16:45:36"
-"schochastics","RFPNG","2023-12-10 20:22:14",3,0,1,"2023-12-10 19:59:02"
-"schochastics","dialrs","2024-07-02 17:05:39",7,1,1,"2024-02-29 18:07:51"
-"schochastics","timeless","2024-09-01 07:15:28",19,2,2,"2024-09-01 05:15:11"
-"schochastics","shortuuid","2024-08-23 19:35:38",4,0,2,"2024-08-18 05:48:23"
-"gesistsa","adaR","2024-07-17 15:19:04",26,2,6,"2024-02-19 08:16:06"
-"gesistsa","rtoot","2024-06-19 08:19:24",103,14,6,"2024-06-19 13:36:47"
-"schochastics","academicons","2024-01-12 21:31:14",66,4,0,NA
-"schochastics","devicons","2024-01-12 17:47:37",5,1,0,NA
-"schochastics","quarto-blackboard-theme","2024-04-17 17:06:33",36,2,0,NA
-"schochastics","quarto-sketchy-html","2023-05-01 13:01:18",41,2,0,NA
-"schochastics","quarto-social-share","2024-01-08 19:01:16",32,3,2,"2024-01-08 19:04:21"
-"schochastics","quarto-nutshell","2024-02-18 19:42:10",66,0,0,NA
-"schochastics","quartocities","2022-08-18 21:31:34",16,1,0,NA
-"schochastics","quarto-glossary","2023-01-24 07:49:21",9,0,0,NA
-"schochastics","quarto-cv","2023-07-17 08:43:36",110,11,1,"2024-02-26 19:40:22"
-"schochastics","classic-cv","2023-10-16 07:00:13",14,6,0,NA
-"schochastics","modern-cv","2023-07-17 08:51:37",5,3,0,NA
-"schochastics","modern2-cv","2023-09-29 19:56:06",31,13,1,"2024-01-03 07:43:41"
-"schochastics","sidebar-cv","2024-05-24 18:03:30",6,3,1,"2024-05-24 18:03:58"
+"earowang","hts","2024-07-30 12:58:55",110,36,20,"2024-05-31 06:33:56"
+"FinYang","tsdl","2020-07-12 23:35:29",103,42,2,"2024-08-09 10:25:25"
+"jforbes14","eechidna","2023-06-15 06:52:42",43,6,3,"2023-10-07 11:18:54"
+"mitchelloharawild","distributional","2024-09-17 06:27:17",96,15,35,"2024-09-18 15:24:06"
+"mitchelloharawild","vitae","2024-07-10 15:47:56",1222,237,43,"2024-09-25 02:44:33"
+"numbats","monash","2024-09-17 07:50:32",22,16,9,"2023-08-29 23:23:09"
+"robjhyndman","compenginets","2024-02-28 03:48:40",2,3,0,NA
+"robjhyndman","cricketdata","2023-10-23 01:46:34",80,21,1,"2023-11-28 03:17:03"
+"robjhyndman","demography","2023-07-18 01:30:03",73,25,13,"2023-11-06 06:58:30"
+"robjhyndman","expsmooth","2023-07-18 01:36:47",14,10,0,NA
+"robjhyndman","fma","2023-11-19 22:05:36",18,8,0,NA
+"robjhyndman","forecast","2024-08-30 03:02:00",1114,341,12,"2024-02-29 04:34:30"
+"robjhyndman","fpp2-package","2023-07-18 01:30:04",105,50,0,NA
+"robjhyndman","fpp3","2024-09-18 02:20:52",133,35,0,NA
+"robjhyndman","hdrcde","2023-07-18 01:33:37",23,6,0,NA
+"robjhyndman","Mcomp","2024-07-01 08:04:13",12,7,0,NA
+"robjhyndman","MEFM-package","2024-06-13 00:31:26",55,32,0,NA
+"robjhyndman","pkgmeta","2023-09-20 17:08:34",2,0,0,NA
+"robjhyndman","rcademy","2024-09-25 08:18:48",14,5,2,"2020-02-20 04:35:46"
+"robjhyndman","TACforecasting","2023-07-18 01:33:39",2,0,0,NA
+"robjhyndman","thief","2023-07-18 01:31:52",46,11,0,NA
+"robjhyndman","tscompdata","2023-07-18 01:34:42",18,5,0,NA
+"robjhyndman","tsfeatures","2024-07-23 02:41:11",253,42,1,"2022-04-25 00:45:47"
+"robjhyndman","vital","2024-09-25 03:38:52",25,1,9,"2024-09-08 22:34:59"
+"robjhyndman","weird-package","2024-09-24 04:32:51",11,0,0,NA
+"ropenscilabs","ozbabynames","2022-04-22 07:02:04",10,4,6,"2019-10-15 00:25:33"
+"Sayani07","gghdr","2024-02-07 09:54:49",49,5,7,"2024-04-19 06:16:26"
+"Sayani07","gravitas","2022-06-14 01:25:32",15,2,10,"2022-06-14 01:58:38"
+"sevvandi","lookout","2024-09-17 05:08:26",30,0,1,"2022-10-20 04:23:33"
+"tidyverts","fable","2024-09-24 23:50:22",558,65,65,"2024-06-25 06:16:30"
+"tidyverts","fable.binary","2023-12-11 09:43:15",7,0,0,NA
+"tidyverts","fabletools","2024-09-24 23:53:19",89,31,80,"2024-09-24 23:39:41"
+"tidyverts","feasts","2024-09-25 23:11:11",292,23,23,"2024-08-26 17:03:28"
+"tidyverts","tsibble","2024-06-26 11:46:46",528,50,26,"2024-07-11 06:18:29"
+"tidyverts","tsibbledata","2022-09-02 02:22:16",25,17,0,NA
+"ykang","gratis","2024-04-08 01:09:20",76,29,0,NA
+"quarto-monash","letter","2024-05-28 07:41:09",3,8,0,NA
+"quarto-monash","memo","2024-08-30 05:48:28",1,2,0,NA
+"quarto-monash","presentation","2024-09-10 03:44:33",0,1,1,"2024-05-29 05:53:08"
+"quarto-monash","report","2024-06-18 07:55:17",25,7,0,NA
+"quarto-monash","thesis","2024-06-18 07:55:46",40,32,0,NA
+"quarto-monash","workingpaper","2024-08-30 07:44:22",7,6,0,NA
+"quarto-monash","exam","2024-09-17 00:47:22",1,0,0,NA
