@@ -33,5 +33,5 @@ write.csv(res, "current_week.csv", row.names = FALSE)
 url <- "https://cran.r-project.org/web/checks/check_summary_by_package.html"
 doc <- read_html(url)
 tab <- html_table(doc)[[1]]
-me <- tab[tab$Package %in% repos$repo, -c(2, 16, 17)]
+me <- tab[tab$Package %in% repos$repo[repos$type == "R package"], -c(2, 16, 17)]
 write.csv(me, "cran_status.csv", row.names = FALSE)
