@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 23 * * 1'  # Every Monday at 11 PM GMT
+    - cron: '0 20 * * 1'  # Every Monday at 8 PM GMT (so no later than 7am Tuesday morning in Melbourne)
 
 jobs:
   update-dashboard:
@@ -21,6 +21,7 @@ jobs:
             any::gh
             any::reactable
             any::rvest
+            any::dplyr
 
       - name: Check out repository
         uses: actions/checkout@v4
