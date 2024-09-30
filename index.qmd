@@ -1,5 +1,5 @@
 ---
-page-title: "Repository Dashboard"
+pagetitle: "RJH Repository Dashboard"
 format: dashboard
 theme: darkly
 execute:
