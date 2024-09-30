@@ -1,7 +1,8 @@
 on:
   schedule:
     - cron: '0 20 * * 1'  # Every Monday at 8 PM GMT (so no later than 7am Tuesday morning in Melbourne)
-
+  push:
+    branches: [main]
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
