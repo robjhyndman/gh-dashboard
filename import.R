@@ -2,37 +2,36 @@ library(gh)
 library(rvest)
 repos <- read.csv("repos.csv", row.names = NULL)
 get_repo <- function(owner, repo) {
-    res_issues <- gh("/repos/{username}/{repo}/issues", username = owner, repo = repo)
-    if (length(res_issues) != 0) {
-        last_activity <- max(sapply(res_issues, \(x) x[["updated_at"]]))
-    } else {
-        last_activity <- ""
-    }
+  res_issues <- gh("/repos/{username}/{repo}/issues", username = owner, repo = repo)
+  if (length(res_issues) != 0) {
+    last_activity <- max(sapply(res_issues, \(x) x[["updated_at"]]))
+  } else {
+    last_activity <- ""
+  }
 
-    res_repo <- gh("/repos/{username}/{repo}", username = owner, repo = repo)
-    data.frame(
-        owner = owner,
-        repo = repo,
-        last_push = lubridate::as_datetime(res_repo[["pushed_at"]]),
-        stars = res_repo[["stargazers_count"]],
-        forks = res_repo[["forks"]],
-        open_issues = res_repo[["open_issues_count"]],
-        last_issue_activity = suppressWarnings(lubridate::as_datetime(last_activity))
-    )
+  res_repo <- gh("/repos/{username}/{repo}", username = owner, repo = repo)
+  data.frame(
+    owner = owner,
+    repo = repo,
+    last_push = lubridate::as_datetime(res_repo[["pushed_at"]]),
+    stars = res_repo[["stargazers_count"]],
+    forks = res_repo[["forks"]],
+    open_issues = res_repo[["open_issues_count"]],
+    last_issue_activity = suppressWarnings(lubridate::as_datetime(last_activity))
+  )
 }
 
 lst <- lapply(seq_len(nrow(repos)), \(x) {
-    get_repo(repos$owner[x], repos$repo[x])
+  get_repo(repos$owner[x], repos$repo[x])
 })
-
 res <- do.call("rbind", lst)
 
 # Has "last_week.csv" been updated in the previous 7 days?
 last_commit <- gh("/repos/robjhyndman/gh-dashboard/commits",
-  path = "last_week.csv",
-  .limit = 1)[[1]]$commit$author$date |> as.Date()
-if (last_commit <= (Sys.Date() - 7)) {
-  write.csv(read.csv("current_week.csv", row.names = NULL), "last_week.csv", row.names = FALSE)
+  path = "last_week.csv", .limit = 1)
+if (as.Date(last_commit[[1]]$commit$author$date) <= (Sys.Date() - 7)) {
+  read.csv("current_week.csv", row.names = NULL) |>
+    write.csv("last_week.csv", row.names = FALSE)
 }
 write.csv(res, "current_week.csv", row.names = FALSE)
 
