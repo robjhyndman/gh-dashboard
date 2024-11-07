@@ -26,7 +26,14 @@ lst <- lapply(seq_len(nrow(repos)), \(x) {
 })
 
 res <- do.call("rbind", lst)
-write.csv(read.csv("current_week.csv", row.names = NULL), "last_week.csv", row.names = FALSE)
+
+# Has "last_week.csv" been updated in the previous 7 days?
+last_commit <- gh("/repos/robjhyndman/gh-dashboard/commits",
+  path = "last_week.csv",
+  .limit = 1)[[1]]$commit$author$date |> as.Date()
+if (last_commit <= (Sys.Date() - 7)) {
+  write.csv(read.csv("current_week.csv", row.names = NULL), "last_week.csv", row.names = FALSE)
+}
 write.csv(res, "current_week.csv", row.names = FALSE)
 
 # get CRAN status
