@@ -120,7 +120,8 @@ problems$errors <- rowSums(cran == "ERROR")
 cran$Score <- 10 * problems$errors + 5 * problems$warnings + problems$notes
 cran <- cran |>
   dplyr::arrange(desc(Score)) |>
-  dplyr::select(Package, Score, everything())
+  dplyr::select(Package, Score, everything()) |>
+  dplyr::filter(Score > 0)
 
 reactable(cran,
   columns = list(
