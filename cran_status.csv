@@ -3,7 +3,7 @@
 "demography","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
 "distributional","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
 "expsmooth","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
-"fable","ERROR","ERROR","ERROR","ERROR","ERROR","OK","OK","OK","OK","OK","OK","OK","OK"
+"fable","ERROR","OK","OK","OK","ERROR","OK","OK","OK","OK","OK","OK","OK","OK"
 "fabletools","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
 "feasts","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
 "fma","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"
