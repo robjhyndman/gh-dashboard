@@ -4,7 +4,7 @@
 "distributional","NOTE","NOTE","NOTE","NOTE","OK","NOTE","NOTE","OK","OK","OK","OK","OK","OK","Mitchell O'Hara-Wild <mail at mitchelloharawild.com>",""
 "expsmooth","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","Rob J Hyndman <Rob.Hyndman at monash.edu>",""
 "fable","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","Mitchell O'Hara-Wild <mail at mitchelloharawild.com>",""
-"fabletools","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","Mitchell O'Hara-Wild <mail at mitchelloharawild.com>",""
+"fabletools","OK","OK","OK","ERROR","OK","OK","OK","OK","OK","OK","OK","OK","OK","Mitchell O'Hara-Wild <mail at mitchelloharawild.com>",""
 "feasts","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","Mitchell O'Hara-Wild <mail at mitchelloharawild.com>",""
 "fma","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","Rob Hyndman <Rob.Hyndman at monash.edu>",""
 "forecast","OK","OK","OK","OK","OK","OK","OK","OK","NOTE","OK","OK","OK","NOTE","Rob Hyndman <Rob.Hyndman at monash.edu>",""
