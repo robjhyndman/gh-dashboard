@@ -1,9 +1,9 @@
 "owner","repo","last_push","stars","forks","open_issues","last_issue_activity"
-"earowang","hts",2024-12-24 23:52:30,110,37,20,2025-04-11 18:16:38
+"earowang","hts",2024-12-24 23:52:30,111,37,20,2025-04-11 18:16:38
 "FinYang","tsdl",2020-07-12 23:35:29,109,41,2,2024-08-09 10:25:25
 "jforbes14","eechidna",2023-06-15 06:52:42,43,6,3,2023-10-07 11:18:54
 "mitchelloharawild","distributional",2025-03-27 07:58:00,100,17,33,2024-11-25 16:55:10
-"mitchelloharawild","vitae",2024-07-10 15:47:56,1240,242,47,2025-04-04 18:00:16
+"mitchelloharawild","vitae",2024-07-10 15:47:56,1241,243,47,2025-04-15 22:34:24
 "numbats","monash",2024-09-17 07:50:32,22,17,9,2023-08-29 23:23:09
 "PuwasalaG","conduits",2023-04-18 09:13:32,3,1,0,NA
 "robjhyndman","compenginets",2024-02-28 03:48:40,2,3,0,NA
@@ -11,10 +11,10 @@
 "robjhyndman","demography",2024-12-06 09:00:06,73,25,15,2024-12-08 17:55:16
 "robjhyndman","expsmooth",2023-07-18 01:36:47,13,10,0,NA
 "robjhyndman","fma",2023-11-19 22:05:36,19,8,0,NA
-"robjhyndman","forecast",2025-04-15 11:26:32,1137,343,15,2025-04-15 12:40:32
+"robjhyndman","forecast",2025-04-15 22:34:09,1138,343,14,2025-04-16 16:41:45
 "robjhyndman","fpp",2023-07-18 01:30:04,106,50,0,NA
 "robjhyndman","fpp2-package",2023-07-18 01:30:04,106,50,0,NA
-"robjhyndman","fpp3",2024-09-18 02:20:52,142,38,0,NA
+"robjhyndman","fpp3",2024-09-18 02:20:52,143,38,0,NA
 "robjhyndman","hdrcde",2023-07-18 01:33:37,24,6,0,NA
 "robjhyndman","Mcomp",2024-07-01 08:04:13,11,7,0,NA
 "robjhyndman","MEFM-package",2024-06-13 00:31:26,55,32,0,NA
@@ -33,7 +33,7 @@
 "sevvandi","lookout",2025-02-20 03:13:42,28,1,2,2025-02-04 04:57:12
 "tidyverts","fable",2024-11-28 04:14:23,569,66,68,2025-03-28 11:46:56
 "tidyverts","fable.binary",2023-12-11 09:43:15,7,0,0,NA
-"tidyverts","fabletools",2025-02-04 08:13:13,91,33,87,2025-04-15 06:36:09
+"tidyverts","fabletools",2025-02-04 08:13:13,92,33,87,2025-04-15 06:36:09
 "tidyverts","feasts",2024-11-13 03:49:35,302,24,24,2025-04-02 23:14:32
 "tidyverts","tsibble",2025-01-30 22:06:17,536,48,26,2025-01-31 15:11:09
 "tidyverts","tsibbledata",2024-11-11 04:15:01,25,17,0,NA
