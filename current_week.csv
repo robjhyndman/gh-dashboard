@@ -25,9 +25,9 @@
 "robjhyndman","TACforecasting",2023-07-18 01:33:39,2,0,0,NA
 "robjhyndman","thief",2023-07-18 01:31:52,47,12,0,NA
 "robjhyndman","tscompdata",2023-07-18 01:34:42,18,5,0,NA
-"robjhyndman","tsfeatures",2026-01-02 05:32:49,263,42,2,2024-11-21 21:00:26
+"robjhyndman","tsfeatures",2026-01-02 05:32:49,262,42,2,2024-11-21 21:00:26
 "robjhyndman","vital",2026-02-13 04:07:07,31,4,7,2025-07-17 04:09:52
-"robjhyndman","weird-package",2026-03-26 21:04:28,20,3,1,2025-07-23 04:22:09
+"robjhyndman","weird-package",2026-03-26 21:04:28,21,3,0,NA
 "Sayani07","gghdr",2024-02-07 09:54:49,54,5,6,2024-04-19 06:16:26
 "Sayani07","gravitas",2022-06-14 01:25:32,15,2,10,2022-06-14 01:58:38
 "sevvandi","lookout",2026-03-26 00:52:05,29,1,1,2022-10-20 04:23:33
@@ -41,7 +41,7 @@
 "quarto-monash","exam",2026-01-30 23:45:40,5,3,0,NA
 "quarto-monash","letter",2025-09-16 23:45:36,8,13,0,NA
 "quarto-monash","memo",2026-01-07 23:57:51,3,3,0,NA
-"quarto-monash","presentation",2026-03-27 06:09:50,3,4,1,2025-05-20 03:17:30
+"quarto-monash","presentation",2026-03-30 04:22:43,3,4,1,2025-05-20 03:17:30
 "quarto-monash","report",2025-07-29 23:04:34,32,12,1,2024-11-20 03:00:16
 "quarto-monash","thesis",2026-03-27 02:31:03,50,30,1,2025-08-01 02:52:31
 "quarto-monash","workingpaper",2025-07-29 23:00:29,14,6,0,NA
