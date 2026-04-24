@@ -2,7 +2,11 @@ library(gh)
 library(rvest)
 repos <- read.csv("repos.csv", row.names = NULL)
 get_repo <- function(owner, repo) {
-  res_issues <- gh("/repos/{username}/{repo}/issues", username = owner, repo = repo)
+  res_issues <- gh(
+    "/repos/{username}/{repo}/issues",
+    username = owner,
+    repo = repo
+  )
   if (length(res_issues) != 0) {
     last_activity <- max(sapply(res_issues, \(x) x[["updated_at"]]))
   } else {
@@ -17,7 +21,9 @@ get_repo <- function(owner, repo) {
     stars = res_repo[["stargazers_count"]],
     forks = res_repo[["forks"]],
     open_issues = res_repo[["open_issues_count"]],
-    last_issue_activity = suppressWarnings(lubridate::as_datetime(last_activity))
+    last_issue_activity = suppressWarnings(lubridate::as_datetime(
+      last_activity
+    ))
   )
 }
 
@@ -27,8 +33,11 @@ lst <- lapply(seq_len(nrow(repos)), \(x) {
 res <- do.call("rbind", lst)
 
 # Has "last_week.csv" been updated in the previous 7 days?
-last_commit <- gh("/repos/robjhyndman/gh-dashboard/commits",
-  path = "last_week.csv", .limit = 1)
+last_commit <- gh(
+  "/repos/robjhyndman/gh-dashboard/commits",
+  path = "last_week.csv",
+  .limit = 1
+)
 if (as.Date(last_commit[[1]]$commit$author$date) <= (Sys.Date() - 7)) {
   read.csv("current_week.csv", row.names = NULL) |>
     write.csv("last_week.csv", row.names = FALSE)
@@ -39,5 +48,8 @@ write.csv(res, "current_week.csv", row.names = FALSE)
 url <- "https://cran.r-project.org/web/checks/check_summary_by_package.html"
 doc <- read_html(url)
 tab <- html_table(doc)[[1]]
-me <- tab[tab$Package %in% repos$repo[repos$type == "R package"], -c(2, 16, 17)]
+me <- tab[
+  tab$Package %in% repos$repo[repos$type == "R package"],
+  -which(colnames(tab) %in% c("Version", "Maintainer", "Priority"))
+]
 write.csv(me, "cran_status.csv", row.names = FALSE)
