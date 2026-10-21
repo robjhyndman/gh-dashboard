@@ -10,13 +10,13 @@
 "robjhyndman","cricketdata",2025-07-21 23:19:33,92,30,0,NA
 "robjhyndman","demography",2025-10-06 08:01:15,78,26,11,2023-09-24 03:13:50
 "robjhyndman","expsmooth",2026-01-01 02:45:23,15,9,0,NA
-"robjhyndman","fma",2026-01-01 03:10:07,19,8,0,NA
-"robjhyndman","forecast",2026-10-20 20:22:12,1185,337,6,2026-09-24 15:45:50
-"robjhyndman","fpp",2026-01-19 21:25:59,109,50,0,NA
-"robjhyndman","fpp2-package",2026-01-19 21:25:59,109,50,0,NA
-"robjhyndman","fpp3",2026-02-14 04:14:42,157,44,1,2026-05-19 01:30:02
+"robjhyndman","fma",2026-10-21 06:03:33,19,8,0,NA
+"robjhyndman","forecast",2026-10-20 20:22:12,1186,337,6,2026-09-24 15:45:50
+"robjhyndman","fpp",2026-01-19 21:25:59,110,50,0,NA
+"robjhyndman","fpp2-package",2026-01-19 21:25:59,110,50,0,NA
+"robjhyndman","fpp3",2026-02-14 04:14:42,158,44,1,2026-05-19 01:30:02
 "robjhyndman","hdrcde",2026-01-11 07:24:35,27,6,0,NA
-"robjhyndman","Mcomp",2026-05-04 08:57:07,12,7,0,NA
+"robjhyndman","Mcomp",2026-05-04 08:57:07,13,7,0,NA
 "robjhyndman","MEFM-package",2025-12-31 20:57:13,55,30,0,NA
 "robjhyndman","ozbabynames",2026-01-01 03:21:10,12,4,6,2025-03-02 02:58:40
 "robjhyndman","pkgmeta",2026-01-01 03:50:19,4,0,0,NA
@@ -25,13 +25,13 @@
 "robjhyndman","TACforecasting",2023-07-18 01:33:39,2,0,0,NA
 "robjhyndman","thief",2023-07-18 01:31:52,48,12,0,NA
 "robjhyndman","tscompdata",2023-07-18 01:34:42,18,5,0,NA
-"robjhyndman","tsfeatures",2026-06-30 11:44:29,263,43,2,2024-11-21 21:00:26
+"robjhyndman","tsfeatures",2026-06-30 11:44:29,264,43,2,2024-11-21 21:00:26
 "robjhyndman","vital",2026-10-05 04:39:07,32,5,7,2025-07-17 04:09:52
 "robjhyndman","weird-package",2026-10-14 02:42:34,31,6,0,NA
 "Sayani07","gghdr",2024-02-07 09:54:49,54,5,6,2024-04-19 06:16:26
 "Sayani07","gravitas",2022-06-14 01:25:32,15,2,10,2022-06-14 01:58:38
 "sevvandi","lookout",2026-09-18 03:54:13,29,2,1,2022-10-20 04:23:33
-"tidyverts","fable",2026-09-15 15:23:48,592,71,71,2026-10-06 10:30:18
+"tidyverts","fable",2026-09-15 15:23:48,593,71,71,2026-10-06 10:30:18
 "tidyverts","fable.binary",2023-12-11 09:43:15,8,0,0,NA
 "tidyverts","fabletools",2026-10-11 04:33:46,98,37,74,2026-10-10 23:47:08
 "tidyverts","feasts",2026-10-05 13:15:51,310,28,24,2026-02-04 04:58:34
